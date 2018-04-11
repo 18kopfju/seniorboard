@@ -1,7 +1,7 @@
 //Justin Kopf, Elliot Shoemaker, Patrick Potter
 void setup(){
 size (3000,2000);
-PImage unnamed  = loadImage("unnamed.jpg");
+PImage unnamed  = loadImage(unnamed.jpg);
 unnamed.resize(1000,650);
 image(unnamed, 0, 200);
 }
