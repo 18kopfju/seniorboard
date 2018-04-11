@@ -1,5 +1,4 @@
 //Justin Kopf, Elliot Shoemaker, Patrick Potter
-# seniorboard
 void setup(){
 size (3000,2000);
 PImage unnamed  = loadImage("unnamed.jpg");
