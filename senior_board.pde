@@ -1,6 +1,6 @@
 void setup(){
 size (3000,2000);
-preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png";
+preload="unnamed,placeholder,p1,p2,p3";
 PImage unnamed  = loadImage("unnamed.jpg");
 unnamed.resize(1000,650);
 image(unnamed, 0, 200);
