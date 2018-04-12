@@ -1,6 +1,6 @@
 void setup(){
 size (1600,850);
- /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png"; */ 
+ /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png,sco.png"; */ 
 PImage unnamed  = loadImage("unnamed.jpg");
 unnamed.resize(1000,650);
 image(unnamed, 0, 200);
@@ -36,7 +36,12 @@ line(957,427,970,500);
 text("64,70",955,514);
 text("53",975,490);
 text("60",943,528);
-
+line(920,405,920,300);
+text("44,58,59",895,295);
+line(920,397,850,360);
+text("46",840,357);
+line(935,405,965,320);
+text("39",960,313);
 //fill(255);
 //textSize(55);
 //textAlign(CENTER);
@@ -54,5 +59,8 @@ image(img4,1000,425);
 PImage img5= loadImage("p3.png");
 img5.resize(300,425);
 image(img5,1300,0);
-
+ PImage img6= loadImage("sco.png");
+  img6.resize(200,150); 
+image(img6, 0, 700);
+text("67",160,815);
 }
