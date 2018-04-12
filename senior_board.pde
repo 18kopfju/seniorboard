@@ -1,5 +1,5 @@
 void setup(){
-size (3000,2000);
+size (1600,850);
  /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png"; */ 
 PImage unnamed  = loadImage("unnamed.jpg");
 unnamed.resize(1000,650);
