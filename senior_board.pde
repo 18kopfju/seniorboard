@@ -46,7 +46,7 @@ text("60",943,528);
 //String t = h + ":" + nf(m, 2);
 //text (t, 1500, 50);
 PImage img3 = loadImage("p1.png");
-img3.resize(30,425);
+img3.resize(300,425);
 image(img3,1000,0);
 PImage img4= loadImage("p2.png");
 img4.resize(300,425);
