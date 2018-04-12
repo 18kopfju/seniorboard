@@ -33,7 +33,7 @@ text("62",160,390);
 //int h = hour();
 //String t = h + ":" + nf(m, 2);
 //text (t, 1500, 50);
-PImage img3 = loadImage("p1.png");
+PImage img3 = loadImage("2d96075.png");
 img3.resize(225,425);
 image(img3,1000,0);
 PImage img4= loadImage("p2.png");
