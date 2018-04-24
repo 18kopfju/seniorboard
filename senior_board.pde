@@ -3,6 +3,7 @@ size (1600,850);
  /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png,sco.png,1.png,2.png"; */ 
 }
 void draw(){
+    background(0);
   PImage unnamed  = loadImage("unnamed.jpg");
 unnamed.resize(1000,650);
 image(unnamed, 0, 200);
@@ -30,8 +31,8 @@ line(957,427,980,480);
 line(957,427,950,520);
 line(957,427,970,500);
 text("64,70",955,514);
-text("53",975,490);
-text("60",943,528);
+text("30,53",980,490);
+text("60",945,530);
 line(920,405,920,300);
 text("44,58,59",895,295);
 line(920,397,850,360);
@@ -48,14 +49,8 @@ text("39",960,313);
 //String t = h + ":" + nf(m, 2);
 //text (t, 1500, 50);
 PImage img3 = loadImage("p1.png");
-img3.resize(225,425);
+img3.resize(445,800);
 image(img3,1000,0);
-PImage img4= loadImage("p2.png");
-img4.resize(225,425);
-image(img4,1000,425);
-PImage img5= loadImage("p3.png");
-img5.resize(225,425);
-image(img5,1225,0);
  PImage img6= loadImage("sco.png");
   img6.resize(200,150); 
   PImage w  = loadImage("1.png");
@@ -64,16 +59,7 @@ image(w, 50, 40);
 image(x, 800, 40);
 image(img6, 0, 700);
 text("67",160,815);
-// code borrowed from https://www.openprocessing.org/sketch/13601
-//fill(255);
-//textSize(55);
-
-//frameRate(1);
-//int m = minute();
-//int h = hour();
-//String t = h + ":" + nf(m, 2);
-//text (t, 500, 170);
 fill(0);
   textSize(50);
-text("Oh The Places You'll Go", 250 , 100);
+text("Oh The Places You'll Go", 210 , 100);
 }
