@@ -73,8 +73,8 @@ frameRate(1);
 int m = minute();
 int h = hour();
 String t = h + ":" + nf(m, 2);
-fill(0);
 text (t, 500, 170);
+fill(0);
   textSize(50);
 text("Oh The Places You'll Go", 500 , 100);
 }
