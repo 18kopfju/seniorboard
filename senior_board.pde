@@ -68,7 +68,7 @@ text("67",160,815);
 // code borrowed from https://www.openprocessing.org/sketch/13601
 //fill(255);
 //textSize(55);
-textAlign(CENTER);
+
 //frameRate(1);
 //int m = minute();
 //int h = hour();
@@ -76,5 +76,6 @@ textAlign(CENTER);
 //text (t, 500, 170);
 fill(0);
   textSize(50);
+  textAlign(CENTER);
 text("Oh The Places You'll Go", 500 , 100);
 }
