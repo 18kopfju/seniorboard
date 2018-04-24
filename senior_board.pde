@@ -76,6 +76,5 @@ text("67",160,815);
 //text (t, 500, 170);
 fill(0);
   textSize(50);
-  textAlign(CENTER);
-text("Oh The Places You'll Go", 500 , 100);
+text("Oh The Places You'll Go", 200 , 100);
 }
