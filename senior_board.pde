@@ -68,7 +68,7 @@ text("67",160,815);
 // code borrowed from https://www.openprocessing.org/sketch/13601
 //fill(255);
 //textSize(55);
-//textAlign(CENTER);
+textAlign(CENTER);
 //frameRate(1);
 //int m = minute();
 //int h = hour();
