@@ -3,7 +3,6 @@ size (1600,850);
  /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png,sco.png,1.png,2.png"; */ 
 }
 void draw(){
-    background(0);
   PImage unnamed  = loadImage("unnamed.jpg");
 unnamed.resize(1000,650);
 image(unnamed, 0, 200);
