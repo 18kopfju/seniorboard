@@ -61,5 +61,5 @@ image(img6, 0, 700);
 text("67",160,815);
 fill(0);
   textSize(50);
-text("Oh The Places You'll Go", 250 , 100);
+text("Oh The Places You'll Go", 265 , 100);
 }
