@@ -2,6 +2,7 @@
 
 void setup(){
 size (3000,1500);
+ /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png,sco.png,1.png,2.png"; */ 
   x = 1020;
  y = 50; 
 }
