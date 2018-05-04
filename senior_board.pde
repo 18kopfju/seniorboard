@@ -170,7 +170,7 @@ int z = second();
 //String t = 39- parseInt d;  
 
 String t = 39-d + ":" + nf(16-h ,2) + ":" + nf(59-m, 2)+ ":" + nf(60-z,2);
-text (t, 300, 200);
+text (t, 315, 2200);
 textSize(45);
 text("Graduation Coundown",250,170);
  }
