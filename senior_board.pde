@@ -154,6 +154,25 @@ text("31.  Justin Kopf- Xavier University",x,y+750);
  if(y<=-1500){ 
   y = 50;   
  }
+ fill(255);
+
+textSize(55);
+
+
+
+frameRate(1);
+
+int m = minute();
+int d = day();
+int h = hour();
+int z = second();
+
+//String t = 39- parseInt d;  
+
+String t = 39-d + ":" + nf(16-h ,2) + ":" + nf(59-m, 2)+ ":" + nf(60-z,2);
+text (t, 300, 200);
+textSize(45);
+text("Graduation Coundown",250,170);
  }
 
 
