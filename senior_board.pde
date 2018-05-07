@@ -160,7 +160,7 @@ textSize(55);
 
 
 
-frameRate(5);
+frameRate(10);
 
 int m = minute();
 int d = day();
