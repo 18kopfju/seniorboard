@@ -63,7 +63,7 @@ line(913,600,925,445);
 line(937,420,970,420);
 text("41",972,425);
 line(912,395,710,320);
-text("1,5,9,11,15,27,36,48,55,56",550,327);
+text("1,5,9,11,15,27,36,48,55,56",500,327);
 line(923,410,820,390);
 text("15",800,397);
 
@@ -82,8 +82,12 @@ text("15",800,397);
 image(w, 50, 40);
  PImage a  = loadImage("2.png");
 image(a, 800, 40);
-image(img6, 0, 700);
-text("67",160,815);
+image(img6, 0, 600);
+PImage dr = loadImage("DR.jpg");
+dr.resize(150,150); 
+image(dr,0,250);
+text("71",75,325);
+text("67",160,715);
 fill(0);
   textSize(50);
 text("Oh The Places You'll Go", 210 , 100);
@@ -199,4 +203,3 @@ text (t, 320, 230);
 textSize(45);
 text("Graduation Countdown",250,170);
 }
- 
