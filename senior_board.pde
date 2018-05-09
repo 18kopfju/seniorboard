@@ -1,7 +1,7 @@
 int x, y;
 
 void setup(){
-size (3000,1500);
+size (1450,750);
  /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png,sco.png,1.png,2.png"; */ 
   x = 1020;
  y = 50; 
@@ -97,9 +97,9 @@ text("Oh The Places You'll Go", 210 , 100);
    fill(255);
    text("1.    Lily Adler-  Gap Year - University of Vermont",x,y);
  text("2.    Melissa Baumann ",x,y+25);   
- text("3.    Jack Beaty- Community College of Vermont - Lyndon State College",x,y+50);
+ text("3.    Jack Beaty-Community College of Vermont-Lyndon State College",x,y+50);
  text("4.    Katrina Boswell- Roanoke College",x,y+75);
- text("5.    Olivia Brooks- University of Vermont - Honors College",x,y+100);
+ text("5.    Olivia Brooks- University of Vermont",x,y+100);
  text("6.    Reiner Brown- Vermont Technical College",x,y+125);
  text("7.    Kiara Buker - Drexel University" ,x,y+150);
  text("8.    Maggie Burns - Roger Williams University",x,y+175);
@@ -108,7 +108,7 @@ text("10.  Thomas Carroll - Military",x,y+225);
  text("11.  Micah Cole- Burlington - Music",x,y+250);
  text("12.  Andrew Crossman - Bridgewater, Vermont",x,y+275);  
 text("13.  Austin Crossman",x,y+300);    
- text("14.  Emily Dupont - Nutmeg Conservatory for the Arts",x,y+325);
+ text("14.  Emily Dupont -Nutmeg Conservatory for the Arts",x,y+325);
  text("15.  Ethan Earle- Champlain College",x,y+350);
  text("16.  Angus Farrand - Belmont, Vermont",x,y+375);          
  text("17.  Lauren Forgione- Gap Year - University of Arizona",x,y+400);
@@ -120,14 +120,14 @@ text("13.  Austin Crossman",x,y+300);
  text("23.  Rory Haff- Smith College",x,y+550);
  text("24.  Anna Haley - School of Visual Arts",x,y+575);  
  text("25.  Brook Heston- Skidmore College",x,y+600);
- text("26.  Will Higgins - Montserrat College of Art and Design",x,y+625);   
+ text("26.  Will Higgins -Montserrat College of Art and Design",x,y+625);   
  text("27.  Olivia Johannensen- Saint Michael’s College",x,y+650);
  text("28.  Abigail Keller- Drexel University",x,y+675);
  text("29.  Josh Kennedy",x,y+700);
  text("30.  Carissa Kinsman- Husson University in Maine",x,y+725);
 text("31.  Justin Kopf- Xavier University",x,y+750);
  text("32.  Sadie Kuhn- Colby College in Maine",x,y+775);
- text("33.  Annabelle Lessard- Wentworth Institute of Technology",x,y+800);
+ text("33.  Annabelle Lessard-Wentworth Institute of Technology",x,y+800);
  text("34.  Van Lory",x,y+825);       
  text(" 35.  Levi Lynds- Rutland, Vermont",x,y+850);    
  text("36.  Ella MacMaster- University of Vermont",x,y+875);
@@ -151,7 +151,7 @@ text("45.  Andrew Pierce-  White River Junction, Vermont",x,y+1100);
  text("54.  Ben Shearer- Gap Year",x,y+1325);  
  text("55.  Elliot Shoemaker- University of Vermont",x,y+1350);
  text("56.  Maria Shontz- University of Vermont",x,y+1375);
- text("57.  Cian Smith- Wyatts Welding and Diesel - Sharon, VT",x,y+1400);
+ text("57.  Cian Smith- Wyatts Welding and Diesel",x,y+1400);
  text("58.  Meghan Snide- Vermont Technical College",x,y+1425);
  text("59.  Emily Surrell- Vermont Technical College",x,y+1450);
  text("60.  Owen Tarleton- Fisher College",x,y+1475);
@@ -203,3 +203,5 @@ text (t, 320, 230);
 textSize(45);
 text("Graduation Countdown",250,170);
 }
+ 
+
