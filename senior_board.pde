@@ -2,7 +2,7 @@ int x, y;
 
 void setup(){
 size (1450,750);
- /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png,sco.png,1.png,2.png"; */ 
+ /* @pjs preload="unnamed.jpg,placeholder.jpg,p1.png,p2.png,p3.png,sco.png,1.png,2.png,DR.jpg"; */ 
   x = 1020;
  y = 50; 
 }
